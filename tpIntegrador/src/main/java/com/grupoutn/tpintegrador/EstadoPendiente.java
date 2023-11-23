@@ -4,10 +4,6 @@
  */
 package com.grupoutn.tpintegrador;
 
-/**
- *
- * @author JJacquet
- */
 public class EstadoPendiente extends EstadoIncidente {
     
         @Override
