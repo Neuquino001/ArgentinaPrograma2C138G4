@@ -5,7 +5,9 @@
              version="2.0" xmlns="http://java.sun.com/xml/ns/persistence">
 
   <persistence-unit name="aplicacion">
-      
+      <class>com.grupoutn.tpintegrador.Servicio</class>
+      <class>com.grupoutn.tpintegrador.Especialidad</class>
+      <class>com.grupoutn.tpintegrador.Persona</class>
     <properties>
         <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
         <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/tpgrupo4" />

@@ -12,3 +12,5 @@ https://mvnrepository.com/
 -etiquetar con @entity, @table, @column, @id los campos necesarios
 -agregar en el persistent.xml las entidades a persistir en la BD.
 
+* BD H2 es parecido a SQLite 
+
