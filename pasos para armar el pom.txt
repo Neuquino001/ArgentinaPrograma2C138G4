@@ -1,0 +1,14 @@
+-crear proyecto java maven
+-agregar dependencias en el pom copiando de:
+https://mvnrepository.com/
++ mysql
++ lombok
++ persistence-api de javax.persistence
++ maven-plugin-api de org.apache.maven
++ hibernate-core
++ hibernate entity manager de hibernate ORM
++ 
+-crear un constuctor vacío
+-etiquetar con @entity, @table, @column, @id los campos necesarios
+-agregar en el persistent.xml las entidades a persistir en la BD.
+

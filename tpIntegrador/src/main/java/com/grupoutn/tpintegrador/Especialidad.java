@@ -3,9 +3,15 @@ package com.grupoutn.tpintegrador;
 import java.util.Set;
 import lombok.Data;
 
+import javax.persistence.*;
+
 @Data
+@Entity
+@Table(name = "especialidad")
 class Especialidad {
-    private int id;
-    private String descripcion; 
+    @Id
+    private long id;
+    @Column
+    private String descripcion;
     Set<Servicio> servicio;
 }

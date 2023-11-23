@@ -1,7 +1,11 @@
  
 package com.grupoutn.tpintegrador;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 import lombok.Data;
  
 @Data
@@ -10,5 +14,18 @@ import lombok.Data;
 public class Servicio {
     @Id
     double id;
-    String nombreServicio;
+    @Column (name="nombre")
+    String nombre;
+
+    public Servicio() {
+    }
+
+    public Servicio(String nombreServicio) {
+        this.nombre = nombreServicio;
+    }
+
+    @Override
+    public String toString (){
+        return "Nombre del Servicio: "+this.getNombre();
+    }
 }

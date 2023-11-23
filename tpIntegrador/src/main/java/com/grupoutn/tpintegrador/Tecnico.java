@@ -3,7 +3,6 @@ package com.grupoutn.tpintegrador;
 import java.time.LocalDate;
 import java.util.Set;
 import javax.persistence.Entity;
-import javax.persistence.Table;
 import lombok.Data;
 
 @Data

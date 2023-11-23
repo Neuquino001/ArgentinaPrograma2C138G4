@@ -2,13 +2,14 @@ package com.grupoutn.tpintegrador;
 
 import java.time.LocalDate;
 import java.util.Set;
+import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.Table;
 import lombok.Data;
 
 @Data
 @Entity
 public class Cliente extends Persona{
+    @Column
     private String razonSocial;
     private String cuit;
  

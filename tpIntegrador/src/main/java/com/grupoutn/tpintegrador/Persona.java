@@ -24,6 +24,6 @@ public class Persona {
         this.domicilio = domicilio;
         this.fechaDeNacimiento = fechaDeNacimiento;
     }
-    
-    
+    public Persona() {
+    }
 }
