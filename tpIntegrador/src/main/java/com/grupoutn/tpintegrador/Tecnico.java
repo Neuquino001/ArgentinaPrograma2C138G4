@@ -2,9 +2,12 @@ package com.grupoutn.tpintegrador;
 
 import java.time.LocalDate;
 import java.util.Set;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import lombok.Data;
 
 @Data
+@Entity
 public class Tecnico extends Persona{
     
     private int celular;
@@ -16,7 +19,7 @@ public class Tecnico extends Persona{
    // private Set<Incidente> listaIncidentes;
     private boolean disponible;
 
-    public Tecnico(int celular, String mail, String diasDisponibles, String clasificacion, int dni, String nombre, String apellido, String domicilio, LocalDate fechaDeNacimiento) {
+    public Tecnico(int celular, String mail, String diasDisponibles, String clasificacion, String dni, String nombre, String apellido, String domicilio, LocalDate fechaDeNacimiento) {
         super(dni, nombre, apellido, domicilio, fechaDeNacimiento);
         this.celular = celular;
         this.mail = mail;

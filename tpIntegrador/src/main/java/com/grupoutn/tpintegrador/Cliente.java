@@ -2,17 +2,19 @@ package com.grupoutn.tpintegrador;
 
 import java.time.LocalDate;
 import java.util.Set;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import lombok.Data;
 
 @Data
- 
+@Entity
 public class Cliente extends Persona{
     private String razonSocial;
     private String cuit;
  
     private Set<Servicio> listaServicios;
     
-    public Cliente(String razonSocial, String cuit, int dni, String nombre, String apellido, String domicilio, LocalDate fechaDeNacimiento) {
+    public Cliente(String razonSocial, String cuit, String dni, String nombre, String apellido, String domicilio, LocalDate fechaDeNacimiento) {
         super(dni, nombre, apellido, domicilio, fechaDeNacimiento);
         this.razonSocial = razonSocial;
         this.cuit = cuit;
