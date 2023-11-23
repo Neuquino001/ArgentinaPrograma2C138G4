@@ -1,17 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+ 
 package com.grupoutn.tpintegrador;
 
+import javax.persistence.*;
 import lombok.Data;
-
-/**
- *
- * @author JJacquet
- */
+ 
 @Data
+@Entity
+@Table(name = "servicio")
 public class Servicio {
+    @Id
     double id;
     String nombreServicio;
 }

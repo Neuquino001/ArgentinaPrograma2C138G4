@@ -4,8 +4,10 @@ import java.time.LocalDate;
 import lombok.Data;
 
 @Data
+ @Entity
 public class Persona {
-    private int dni;
+    @Id
+    private double dni;
     private String nombre;
     private String apellido;
     private String domicilio;
