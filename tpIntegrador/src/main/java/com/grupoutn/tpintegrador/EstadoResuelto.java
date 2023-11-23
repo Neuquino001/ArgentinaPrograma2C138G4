@@ -2,16 +2,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package soporteOperativo;
-
-import lombok.Data;
+package com.grupoutn.tpintegrador;
 
 /**
  *
- * @author BANGHO
+ * @author JJacquet
  */
-@Data
-public class Cliente {
-    private String razonSocial;
-    private String cuit;
+public class EstadoResuelto extends EstadoIncidente {
+    
+        @Override
+    public void notificar() {
+        System.out.println("Resuelto");
+    }
 }

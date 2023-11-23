@@ -8,6 +8,7 @@ public class TpIntegrador {
 
     public static void main(String[] args) {
         //String razonSocial, String cuit, int dni, String nombre, String apellido, String domicilio, LocalDate fechaDeNacimiento
+        
         Cliente cliente1 = new Cliente("Pami","20-29951697-1",29951697,"Carlos","Rial","Itapiru 2620",LocalDate.of(1982, 8, 10));
         System.out.println(cliente1.toString());
         System.out.println("\n-----------------------------------------\n");
