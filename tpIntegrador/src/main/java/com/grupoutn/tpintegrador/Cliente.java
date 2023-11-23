@@ -5,9 +5,11 @@ import java.util.Set;
 import lombok.Data;
 
 @Data
+@Entity
 public class Cliente extends Persona{
     private String razonSocial;
     private String cuit;
+    @ManytoOne
     private Set<Servicio> listaServicios;
     
     public Cliente(String razonSocial, String cuit, int dni, String nombre, String apellido, String domicilio, LocalDate fechaDeNacimiento) {
