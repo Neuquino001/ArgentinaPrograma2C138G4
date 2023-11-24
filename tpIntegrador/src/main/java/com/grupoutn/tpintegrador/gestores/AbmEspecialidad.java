@@ -29,4 +29,5 @@ public class AbmEspecialidad {
         pe.buscarEspecialidades().forEach(especialidad -> System.out.println(especialidad));
         System.out.println();
     }
+
 }

@@ -16,7 +16,7 @@ public class PersistenciaEspecialidad {
         return em.find(Especialidad.class, numero);
     }
     public List<Especialidad> buscarEspecialidades(){
-        return em.createQuery("select e from especialidad e", Especialidad.class).getResultList();
+        return em.createQuery("select e from Especialidad e", Especialidad.class).getResultList();
     }
     public void insertar(Especialidad especialidad) {
         em.persist(especialidad);

@@ -3,10 +3,13 @@ package com.grupoutn.tpintegrador;
 import java.time.LocalDate;
 import java.util.Set;
 import javax.persistence.Entity;
+import javax.persistence.Table;
+
 import lombok.Data;
 
 @Data
 @Entity
+@Table(name="persona")
 public class Tecnico extends Persona{
     
     private int celular;

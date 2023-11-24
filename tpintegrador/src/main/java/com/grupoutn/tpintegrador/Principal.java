@@ -23,6 +23,7 @@ public class Principal {
 
         Scanner scanner = new Scanner(System.in);
         espe.agregarEspecialidad(scanner);
+        espe.mostrarEspecialidades();
 
     }
 }

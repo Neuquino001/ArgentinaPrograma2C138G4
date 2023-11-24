@@ -1,10 +1,7 @@
  
 package com.grupoutn.tpintegrador;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 import lombok.Data;
  
@@ -13,19 +10,20 @@ import lombok.Data;
 @Table(name = "servicio")
 public class Servicio {
     @Id
-    double id;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    long id;
     @Column (name="nombre")
-    String nombre;
+    String descripcion;
 
     public Servicio() {
     }
 
     public Servicio(String nombreServicio) {
-        this.nombre = nombreServicio;
+        this.descripcion = nombreServicio;
     }
 
     @Override
     public String toString (){
-        return "Nombre del Servicio: "+this.getNombre();
+        return "Nombre del Servicio: "+this.getDescripcion();
     }
 }
