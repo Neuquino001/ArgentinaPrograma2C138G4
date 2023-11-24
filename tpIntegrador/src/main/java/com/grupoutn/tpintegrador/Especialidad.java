@@ -1,13 +1,11 @@
 package com.grupoutn.tpintegrador;
 
-import java.util.Set;
 import lombok.Data;
-
 import javax.persistence.*;
 
 @Data
 @Entity
-@Table(name = "especialidad")
+@Table(name="especialidad")
 public class Especialidad {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -15,4 +13,7 @@ public class Especialidad {
  
     private String descripcion;
     //Set<Servicio> servicio;
+
+    public Especialidad() {
+    }
 }

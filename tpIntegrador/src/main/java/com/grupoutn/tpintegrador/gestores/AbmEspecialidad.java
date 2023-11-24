@@ -2,7 +2,6 @@ package com.grupoutn.tpintegrador.gestores;
 
 import com.grupoutn.tpintegrador.Especialidad;
 import lombok.Data;
-
 import java.util.Scanner;
 
 @Data
@@ -12,7 +11,7 @@ public class AbmEspecialidad {
     public AbmEspecialidad() {
         this.pe = new PersistenciaEspecialidad();
     }
-    public void agregarCliente(Scanner scanner) {
+    public void agregarEspecialidad(Scanner scanner) {
         System.out.print("Ingrese el nombre de la especialidad: ");
         String nombre = scanner.next();
 

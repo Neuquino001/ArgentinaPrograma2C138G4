@@ -22,7 +22,7 @@ public class Principal {
         espe.getPe().setEm(em);
 
         Scanner scanner = new Scanner(System.in);
-        espe.agregarCliente(scanner);
+        espe.agregarEspecialidad(scanner);
 
     }
 }

@@ -10,7 +10,7 @@ import lombok.Data;
 @Inheritance(strategy= InheritanceType.SINGLE_TABLE)
 public class Persona {
     @Id
-       @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     private String dni;
     private String nombre;
@@ -25,6 +25,5 @@ public class Persona {
         this.domicilio = domicilio;
         this.fechaDeNacimiento = fechaDeNacimiento;
     }
-    public Persona() {
-    }
+    public Persona(){}
 }
