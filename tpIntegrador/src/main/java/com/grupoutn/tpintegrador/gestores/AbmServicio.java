@@ -7,10 +7,10 @@ import java.util.Scanner;
 
 @Data
 public class AbmServicio {
-    private PersistenciaServicio pe;
+    private PersistenciaServicio se;
 
     public AbmServicio() {
-        this.pe = new PersistenciaServicio();
+        this.se = new PersistenciaServicio();
     }
     public void agregarServicio(Scanner scanner) {
         System.out.print("Ingrese el nombre del servicio: ");
@@ -19,15 +19,15 @@ public class AbmServicio {
         Servicio servicio = new Servicio();
         servicio.setDescripcion(nombre);
 
-        pe.getEm().getTransaction().begin();
-        pe.insertar(servicio);
-        pe.getEm().getTransaction().commit();
+        se.getEm().getTransaction().begin();
+        se.insertar(servicio);
+        se.getEm().getTransaction().commit();
 
         System.out.println("Servicio agregada con éxito.\n");
     }
     public void mostrarServicios(){
         System.out.println("Servicios:");
-        pe.buscarServicios().forEach(servicio -> System.out.println(servicio));
+        se.buscarServicios().forEach(servicio -> System.out.println(servicio));
         System.out.println();
     }
 

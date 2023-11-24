@@ -1,6 +1,6 @@
 package com.grupoutn.tpintegrador;
 
-import com.grupoutn.tpintegrador.gestores.AbmEspecialidad;
+import com.grupoutn.tpintegrador.gestores.AbmPersona;
 import lombok.Data;
 
 import javax.persistence.EntityManager;
@@ -17,14 +17,14 @@ public class Principal {
     }
     public static void main(String[] args) {
         EntityManager em = getEntityManager();
-        AbmEspecialidad espe = new AbmEspecialidad();
-
-        espe.getPe().setEm(em);
-
         Scanner scanner = new Scanner(System.in);
-        espe.agregarEspecialidad(scanner);
-        espe.mostrarEspecialidades();
 
+        AbmPersona per = new AbmPersona();
+        per.getPe().setEm(em);
+        per.agregarCliente(scanner);
+        per.agregarTecnico(scanner);
+        per.mostrarClientes();
+        per.mostrarTecnicos();
     }
 }
 

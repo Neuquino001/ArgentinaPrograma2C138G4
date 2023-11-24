@@ -10,7 +10,8 @@ import javax.persistence.*;
 @Table(name="incidente")
 public class Incidente {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "incidente_id_seq")
+    @SequenceGenerator(name = "incidente_id_seq", sequenceName = "incidente_id_seq", allocationSize = 1)
     private long id;
     private Date fechaPosibleResolucion;
     private String descripcion;

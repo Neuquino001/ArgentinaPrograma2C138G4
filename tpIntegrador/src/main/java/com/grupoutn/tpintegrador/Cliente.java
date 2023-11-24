@@ -1,6 +1,5 @@
 package com.grupoutn.tpintegrador;
 
-import java.time.LocalDate;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import lombok.Data;
@@ -14,13 +13,15 @@ public class Cliente extends Persona{
  
     //private Set<Servicio> listaServicios;
     
-    public Cliente(String razonSocial, String cuit, String dni, String nombre, String apellido, String domicilio, LocalDate fechaDeNacimiento) {
-        super(dni, nombre, apellido, domicilio, fechaDeNacimiento);
+    public Cliente(String razonSocial, String cuit, String dni, String nombre ) {
+        super(dni, nombre );
         this.razonSocial = razonSocial;
         this.cuit = cuit;
     }
     @Override
     public String toString() {
         return "CLIENTE\n"+super.toString()+"Razon social: "+this.getRazonSocial()+"CUIT: "+this.getCuit();
+    }
+    public Cliente() {
     }
   }
