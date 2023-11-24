@@ -4,9 +4,7 @@ https://mvnrepository.com/
 + mysql
 + lombok
 + persistence-api de javax.persistence
-+ maven-plugin-api de org.apache.maven
-+ hibernate-core
-+ hibernate entity manager de hibernate ORM
++ eclipselink
 + 
 -crear un constuctor vacío
 -etiquetar con @entity, @table, @column, @id los campos necesarios
