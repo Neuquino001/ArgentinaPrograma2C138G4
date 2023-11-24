@@ -10,8 +10,9 @@ import javax.persistence.*;
 @Table(name = "especialidad")
 public class Especialidad {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-    @Column
+ 
     private String descripcion;
-    Set<Servicio> servicio;
+    //Set<Servicio> servicio;
 }

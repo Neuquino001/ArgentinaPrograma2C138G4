@@ -11,7 +11,7 @@ public class Tecnico extends Persona{
     
     private int celular;
     private String mail;
-    private Set<Especialidad> listaEspecialidades;
+    //private Set<Especialidad> listaEspecialidades;
     //private String diasDisponibles;
     //private boolean aceptacion;
     private String clasificacion;

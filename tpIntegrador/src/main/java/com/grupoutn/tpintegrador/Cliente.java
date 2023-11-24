@@ -8,12 +8,12 @@ import lombok.Data;
 
 @Data
 @Entity
+
 public class Cliente extends Persona{
-    @Column
     private String razonSocial;
     private String cuit;
  
-    private Set<Servicio> listaServicios;
+    //private Set<Servicio> listaServicios;
     
     public Cliente(String razonSocial, String cuit, String dni, String nombre, String apellido, String domicilio, LocalDate fechaDeNacimiento) {
         super(dni, nombre, apellido, domicilio, fechaDeNacimiento);

@@ -7,9 +7,10 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name="persona")
+@Inheritance(strategy= InheritanceType.SINGLE_TABLE)
 public class Persona {
     @Id
-    @GeneratedValue
+       @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     private String dni;
     private String nombre;
