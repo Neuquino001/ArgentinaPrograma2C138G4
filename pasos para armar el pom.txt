@@ -11,6 +11,7 @@ https://mvnrepository.com/
 -crear un constuctor vacío
 -etiquetar con @entity, @table, @column, @id los campos necesarios
 -agregar en el persistent.xml las entidades a persistir en la BD.
+- gestor de persistencias
 
 * BD H2 es parecido a SQLite 
 

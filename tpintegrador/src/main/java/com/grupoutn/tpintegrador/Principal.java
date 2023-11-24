@@ -5,11 +5,11 @@ import lombok.Data;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 import java.util.Scanner;
+import javax.persistence.Persistence;
 
 @Data
-public class TpIntegrador {
+public class Principal {
     public static EntityManager getEntityManager(){
         EntityManagerFactory fabrica = Persistence.createEntityManagerFactory("aplicacion");
         EntityManager manager = fabrica.createEntityManager();
