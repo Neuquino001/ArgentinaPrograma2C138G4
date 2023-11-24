@@ -8,7 +8,7 @@ import javax.persistence.*;
 @Data
 @Entity
 @Table(name = "especialidad")
-class Especialidad {
+public class Especialidad {
     @Id
     private long id;
     @Column
