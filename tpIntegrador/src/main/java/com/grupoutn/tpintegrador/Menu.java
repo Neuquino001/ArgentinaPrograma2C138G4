@@ -117,7 +117,7 @@ public class Menu {
                     break;
                     
                 case 5:
-                    System.out.println("Saliendo del programa. ¡Hasta luego!");
+                    System.out.println("Volviendo al Menu Anterior!");
                     break;
                 default:
                     System.out.println("Opción no válida. Inténtalo de nuevo.");
@@ -166,7 +166,7 @@ public class Menu {
                     break;
                 
                 case 5:
-                    System.out.println("Saliendo del programa. ¡Hasta luego!");
+                    System.out.println("Volviendo al Menu Anterior!");
                     break;
                 default:
                     System.out.println("Opción no válida. Inténtalo de nuevo.");
@@ -216,7 +216,7 @@ public class Menu {
                     break;
                 
                 case 5:
-                    System.out.println("Saliendo del programa. ¡Hasta luego!");
+                    System.out.println("Volviendo al Menu Anterior!");
                     break;
                 default:
                     System.out.println("Opción no válida. Inténtalo de nuevo.");
@@ -239,6 +239,7 @@ public class Menu {
             System.out.println("1. Gestionar Altas");
             System.out.println("2. Gestionar Bajas");
             System.out.println("3. Gestionar Modificaciones");
+            System.out.println("4. Mostrar Especialidades");
             System.out.println("5. Salir");
             System.out.println("==========================");
             System.out.print("Selecciona una opción: ");
@@ -264,7 +265,7 @@ public class Menu {
                 
                 
                 case 5:
-                    System.out.println("Saliendo del programa. ¡Hasta luego!");
+                    System.out.println("Volviendo al Menu Anterior!");
                     break;
                 default:
                     System.out.println("Opción no válida. Inténtalo de nuevo.");
