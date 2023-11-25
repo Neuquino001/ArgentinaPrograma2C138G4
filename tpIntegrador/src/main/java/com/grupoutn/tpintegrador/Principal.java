@@ -1,6 +1,5 @@
 package com.grupoutn.tpintegrador;
 
-//agrego menu
 import lombok.Data;
 
 @Data
