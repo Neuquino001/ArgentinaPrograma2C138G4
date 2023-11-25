@@ -1,12 +1,17 @@
-C:\DatosJulio\OneDrive - LIPSIA S.A\Documentos\CursoJava\Etapa-2\TP-Integrador\ArgentinaPrograma2C138G4\tpintegrador\src\main\java\com\grupoutn\tpintegrador\Tecnico.java
-C:\DatosJulio\OneDrive - LIPSIA S.A\Documentos\CursoJava\Etapa-2\TP-Integrador\ArgentinaPrograma2C138G4\tpintegrador\src\main\java\com\grupoutn\tpintegrador\Cliente.java
-C:\DatosJulio\OneDrive - LIPSIA S.A\Documentos\CursoJava\Etapa-2\TP-Integrador\ArgentinaPrograma2C138G4\tpintegrador\src\main\java\com\grupoutn\tpintegrador\Especialidad.java
-C:\DatosJulio\OneDrive - LIPSIA S.A\Documentos\CursoJava\Etapa-2\TP-Integrador\ArgentinaPrograma2C138G4\tpintegrador\src\main\java\com\grupoutn\tpintegrador\gestores\AbmEspecialidad.java
-C:\DatosJulio\OneDrive - LIPSIA S.A\Documentos\CursoJava\Etapa-2\TP-Integrador\ArgentinaPrograma2C138G4\tpintegrador\src\main\java\com\grupoutn\tpintegrador\Incidente.java
-C:\DatosJulio\OneDrive - LIPSIA S.A\Documentos\CursoJava\Etapa-2\TP-Integrador\ArgentinaPrograma2C138G4\tpintegrador\src\main\java\com\grupoutn\tpintegrador\Persona.java
-C:\DatosJulio\OneDrive - LIPSIA S.A\Documentos\CursoJava\Etapa-2\TP-Integrador\ArgentinaPrograma2C138G4\tpintegrador\src\main\java\com\grupoutn\tpintegrador\EstadoPendiente.java
-C:\DatosJulio\OneDrive - LIPSIA S.A\Documentos\CursoJava\Etapa-2\TP-Integrador\ArgentinaPrograma2C138G4\tpintegrador\src\main\java\com\grupoutn\tpintegrador\EstadoResuelto.java
-C:\DatosJulio\OneDrive - LIPSIA S.A\Documentos\CursoJava\Etapa-2\TP-Integrador\ArgentinaPrograma2C138G4\tpintegrador\src\main\java\com\grupoutn\tpintegrador\EstadoIncidente.java
-C:\DatosJulio\OneDrive - LIPSIA S.A\Documentos\CursoJava\Etapa-2\TP-Integrador\ArgentinaPrograma2C138G4\tpintegrador\src\main\java\com\grupoutn\tpintegrador\gestores\PersistenciaEspecialidad.java
-C:\DatosJulio\OneDrive - LIPSIA S.A\Documentos\CursoJava\Etapa-2\TP-Integrador\ArgentinaPrograma2C138G4\tpintegrador\src\main\java\com\grupoutn\tpintegrador\Servicio.java
-C:\DatosJulio\OneDrive - LIPSIA S.A\Documentos\CursoJava\Etapa-2\TP-Integrador\ArgentinaPrograma2C138G4\tpintegrador\src\main\java\com\grupoutn\tpintegrador\Principal.java
+C:\mi_datos_de_UTN_ejemplos\ArgentinaPrograma2C138G4\tpIntegrador\src\main\java\com\grupoutn\tpintegrador\Menu.java
+C:\mi_datos_de_UTN_ejemplos\ArgentinaPrograma2C138G4\tpIntegrador\src\main\java\com\grupoutn\tpintegrador\patronesEstado\EstadoPendiente.java
+C:\mi_datos_de_UTN_ejemplos\ArgentinaPrograma2C138G4\tpIntegrador\src\main\java\com\grupoutn\tpintegrador\gestores\AbmPersona.java
+C:\mi_datos_de_UTN_ejemplos\ArgentinaPrograma2C138G4\tpIntegrador\src\main\java\com\grupoutn\tpintegrador\gestores\PersistenciaEspecialidad.java
+C:\mi_datos_de_UTN_ejemplos\ArgentinaPrograma2C138G4\tpIntegrador\src\main\java\com\grupoutn\tpintegrador\Servicio.java
+C:\mi_datos_de_UTN_ejemplos\ArgentinaPrograma2C138G4\tpIntegrador\src\main\java\com\grupoutn\tpintegrador\Especialidad.java
+C:\mi_datos_de_UTN_ejemplos\ArgentinaPrograma2C138G4\tpIntegrador\src\main\java\com\grupoutn\tpintegrador\patronesEstado\EstadoIncidente.java
+C:\mi_datos_de_UTN_ejemplos\ArgentinaPrograma2C138G4\tpIntegrador\src\main\java\com\grupoutn\tpintegrador\patronesEstado\EstadoResuelto.java
+C:\mi_datos_de_UTN_ejemplos\ArgentinaPrograma2C138G4\tpIntegrador\src\main\java\com\grupoutn\tpintegrador\gestores\PersistenciaServicio.java
+C:\mi_datos_de_UTN_ejemplos\ArgentinaPrograma2C138G4\tpIntegrador\src\main\java\com\grupoutn\tpintegrador\Tecnico.java
+C:\mi_datos_de_UTN_ejemplos\ArgentinaPrograma2C138G4\tpIntegrador\src\main\java\com\grupoutn\tpintegrador\gestores\AbmEspecialidad.java
+C:\mi_datos_de_UTN_ejemplos\ArgentinaPrograma2C138G4\tpIntegrador\src\main\java\com\grupoutn\tpintegrador\gestores\PersistenciaPersona.java
+C:\mi_datos_de_UTN_ejemplos\ArgentinaPrograma2C138G4\tpIntegrador\src\main\java\com\grupoutn\tpintegrador\Principal.java
+C:\mi_datos_de_UTN_ejemplos\ArgentinaPrograma2C138G4\tpIntegrador\src\main\java\com\grupoutn\tpintegrador\Cliente.java
+C:\mi_datos_de_UTN_ejemplos\ArgentinaPrograma2C138G4\tpIntegrador\src\main\java\com\grupoutn\tpintegrador\Persona.java
+C:\mi_datos_de_UTN_ejemplos\ArgentinaPrograma2C138G4\tpIntegrador\src\main\java\com\grupoutn\tpintegrador\gestores\AbmServicio.java
+C:\mi_datos_de_UTN_ejemplos\ArgentinaPrograma2C138G4\tpIntegrador\src\main\java\com\grupoutn\tpintegrador\Incidente.java
